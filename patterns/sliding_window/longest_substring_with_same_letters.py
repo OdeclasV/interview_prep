@@ -8,9 +8,8 @@
 
 ####### END #######
 
-
 def length_of_longest_substring(string, k):
-    window_start, max_length, max_repeat_letter_count = 0
+    window_start, max_length, max_repeat_letter_count = 0,0,0
     frequency_map = {}
 
     for window_end in range(len(string)):
