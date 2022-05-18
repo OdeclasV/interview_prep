@@ -31,4 +31,4 @@ def valid_parens(parens_str):
     # True if stack is empty        
     return True if not stack else False
 
-print(valid_parens("(([]))"))
+print(valid_parens(")"))
