@@ -12,7 +12,6 @@
 
 
 from operator import contains
-import unicodedata
 
 
 def valid_parens(parens_str):
