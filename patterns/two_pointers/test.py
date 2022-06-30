@@ -39,7 +39,7 @@ def distinct_chars(str):
             char_frequency[right_char] = 0
         char_frequency[right_char] += 1
         while char_frequency[right_char] > 1:
-            #window_start = 
+            char_frequency[right_char] -= 1
             count_of_distinct_chars = max(count_of_distinct_chars, len(char_frequency))
         print(char_frequency)
 

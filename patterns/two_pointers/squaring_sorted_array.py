@@ -11,8 +11,7 @@ def make_squares(arr):
     n = len(arr)
     # create new list in which every value is 0
     squares = [0 for x in range(n)]
-    # used to know where biggest squared number
-    # will go in new list
+    # used to know where biggest squared number will go in new list
     highestSquareIdx = n - 1
     left, right = 0, n - 1
     while left <= right:
